@@ -1,0 +1,117 @@
+.nav {
+  background-color:#ffffff;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+
+}
+
+.body {
+ 
+padding-top: 75px;
+ 
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.parallax {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/03/Uvac_River_and_Eagle.jpg');
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+.parallax .container {
+  position: relative;
+  top:100px;
+}
+
+.parallax h1 {
+  color: #000000;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.parallax a {
+	color: #000000
+}
+.parallax p {
+  font-size: 20px;
+  color: #000000;
+}
+
+.learn-more {
+  background-color: #f7f7df7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00dbff;
+}
+
+.neighborhood-guides {
+background-color: #efefef;
+border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+color: #393c3d;
+font-size: 24px;
+}
+
+.neighborhood-guides p {
+font-size: 15px;
+margin-bottom: 13px;
+}
+
+.footer {
+ position: fixed;
+ padding: 7px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+
+}
+.footer p {
+	display: inline;
+}
+
+.aktivacija {
+	pointer-events: hover;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+	
+}
+.aktivacija:hover {
+	color:black;
+}
+
+.clock{
+    text-align:center;
+    width:auto;
+    height:auto;
+}
